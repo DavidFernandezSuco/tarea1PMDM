@@ -4,5 +4,7 @@
     <string name="textViewNombre">Nombre</string>
     <string name="buttonIniciarSesion">Iniciar Sesión</string>
     <string name="buttonCredentiales">Modificar Credenciales</string>
+    <string name="textViewBienvenida">Bienvenido </string>
+    <string name="buttonAlarma">Poner Alarma</string>
 
 </resources>

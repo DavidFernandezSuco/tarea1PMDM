@@ -45,7 +45,10 @@ public class MainActivity extends AppCompatActivity {
                 if (editTextNombre.getText().toString().equals("admin")
                         && editTextContraseña.getText().toString().equals("admin")) {
                     //si se cumple la condicion ir a la siguiente actividad a través de un intent explicito
-                    Intent intentExplicito = new Intent(MainActivity.this, Actividad2.class);
+                    Intent inicioSesion = new Intent(MainActivity.this, LoginCorrecto.class);
+                    //pasar el nombre del usuario a la siguiente actividad
+                    inicioSesion.putExtra("nombre", editTextNombre.getText().toString());
+                    startActivity(inicioSesion);
                 } else {
                     //si no se cumple mostrar el mensaje correspondiente
                     Toast.makeText(MainActivity.this, "Credenciales incorrectas", Toast.LENGTH_SHORT).show();
