@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">David_Fernandez_Suco_PMDM_Tarea1</string>
+    <string name="textViewContraseña">Contraseña</string>
+    <string name="textViewNombre">Nombre</string>
+    <string name="buttonIniciarSesion">Iniciar Sesión</string>
+    <string name="buttonCredentiales">Modificar Credenciales</string>
+
 </resources>
