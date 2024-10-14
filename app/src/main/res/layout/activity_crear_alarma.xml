@@ -23,7 +23,7 @@
                 android:id="@+id/textViewAlarmaNombre"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textViewAlarmaNombre" />
 
             <EditText
                 android:id="@+id/editTextAlarmaNombre"
@@ -38,18 +38,17 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textViewHoraAlarma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textViewHoraAlarma" />
 
             <EditText
-                android:id="@+id/editTextText2"
+                android:id="@+id/editTextHoraAlarma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Name" />
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
@@ -57,18 +56,17 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/textView3"
+                android:id="@+id/textViewMinutosAlarma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:text="@string/textViewMinutosAlarma" />
 
             <EditText
-                android:id="@+id/editTextText3"
+                android:id="@+id/editTextMinutosAlarma"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:ems="10"
-                android:inputType="text"
-                android:text="Name" />
+                android:inputType="text" />
         </TableRow>
 
         <TableRow
@@ -76,10 +74,10 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/button"
+                android:id="@+id/buttonCrearAlarma"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/buttonAlarmaCrear" />
         </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
