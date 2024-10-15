@@ -6,9 +6,12 @@
     <string name="buttonCredentiales">Modificar Credenciales</string>
     <string name="textViewBienvenida">Bienvenido </string>
     <string name="buttonAlarma">Poner Alarma</string>
-    <string name = "textViewAlarmaNombre">Nombre</string>
-    <string name = "textViewHoraAlarma">Hora</string>
-    <string name = "textViewMinutosAlarma">Minutos</string>
-    <string name = "buttonAlarmaCrear">Crear Alarma</string>
+    <string name="textViewAlarmaNombre">Nombre</string>
+    <string name="textViewHoraAlarma">Hora</string>
+    <string name="textViewMinutosAlarma">Minutos</string>
+    <string name="buttonAlarmaCrear">Crear Alarma</string>
+    <string name="textViewNuevoNombre">Nuevo nombre usuario</string>
+    <string name="textViewNuevaContraseña">Nueva contraseña</string>
+    <string name ="buttonGuardar">Guardar Cambios</string>
 
 </resources>

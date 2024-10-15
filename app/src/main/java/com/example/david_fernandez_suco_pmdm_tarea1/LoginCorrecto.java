@@ -26,7 +26,7 @@ public class LoginCorrecto extends AppCompatActivity {
             return insets;
         });
 
-        //Obtener el nombre de usuario del intent inicioSesion
+        //Recuperar el nombre de usuario del putExtra de inicio de sesion
         String nombre = getIntent().getStringExtra("nombre");
 
         //recuperar el textView de bienvenida y añadir el nombre de usuario
@@ -39,8 +39,8 @@ public class LoginCorrecto extends AppCompatActivity {
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://www.tutorialspoint.com/android/android_intents_filters.htm%E2%80%9D"));
-                startActivity(intent);
+                Intent intentURL = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse("https://www.tutorialspoint.com/android/android_intents_filters.htm%E2%80%9D"));
+                startActivity(intentURL);
             }
         });
         //recuperar el boton Poner Alarma
